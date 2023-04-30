@@ -19,7 +19,7 @@ Engineering to improve the affinity of a COVID antibody using the dataset from [
 - The Prefect UI is available at `http://localhost:4200/` to view jobs.
 - Jupyter notebooks are available at `http://localhost:8888/`. 
   - Ensure that notebooks are "trusted" in the top right corner to display interactive plots.
-- Download data: `docker-compose exec -i notebook python download_data.py` 
+- Download data: `docker-compose exec -i notebook python /code/src/download_data.py` 
 
 ## Usage
 
