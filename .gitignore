@@ -1,0 +1,11 @@
+data/*
+!data/*.md
+!data/metrics.csv
+!data/metrics.csv
+!data/max_distance.parquet
+!data/max_affinity.parquet
+!data/max_informative.parquet
+__pycache__/
+.vscode/
+mlruns/
+mlartifacts/

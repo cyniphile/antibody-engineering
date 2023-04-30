@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "template-env"
+version = "0.1.0"
+description = ""
+authors = ["Luke Schiefelbein <luke.schiefelbein@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.12"
+requests = "^2.28.2"
+prefect = "^2.7.11"
+jupyter = "^1.0.0"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
+scipy = "^1.10.0"
+plotly = "^5.13.0"
+fastparquet = "^2023.2.0"
+pandas = "^1.5.3"
+numba = "^0.56.4"
+scikit-learn = "1.2.0"
+mlflow = "^2.1.1"
+torch = "^1.13.1"
+fair-esm = "^2.0.0"
+skorch = "^0.12.1"
+multiprocess = "^0.70.14"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+mypy = "^0.991"
+pandas-stubs = "^1.5.3"
+types-requests = "^2.28.11"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
